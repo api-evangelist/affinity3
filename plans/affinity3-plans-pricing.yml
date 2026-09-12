@@ -1,0 +1,40 @@
+generated: '2026-09-12'
+method: searched
+source: https://www.fromthelobby.com/
+plan_count: 0
+currency: USD
+note: >-
+  Affinity Technology (The Lobby) publishes NO priced plans. The public homepage FAQ
+  ("What does it cost to use The Lobby?") describes the commercial model in prose only —
+  a free demo tier where a brand can draft a campaign without commitment, monthly /
+  quarterly / annual subscription plans whose price is tiered on the number of creator
+  partnerships run per month, and a fully managed service where The Lobby runs the
+  brand's whole influencer program. No dollar figures, quota tables or overage terms are
+  published anywhere on the public site. The plan selector itself
+  (/brand-onboarding/plan_v2) 302s to /users/sign_in, so tier names and prices sit behind
+  an account, and the homepage routes buyers to "Chat with sales" and a Calendly
+  onboarding call instead. plan_count is an honest zero: tiers exist, prices are not
+  public.
+pricing_model: subscription + managed service
+billing_periods:
+- monthly
+- quarterly
+- annual
+metered_on: number of creator partnerships per month
+free_tier:
+  available: true
+  name: Free demo
+  description: Draft a campaign and explore the platform with no commitment.
+  source: https://www.fromthelobby.com/
+plans: []
+evidence:
+- url: https://www.fromthelobby.com/
+  status: 200
+  note: homepage FAQ states the subscription/managed-service model without prices
+- url: https://www.fromthelobby.com/brand-onboarding/plan_v2
+  status: 200
+  note: 302s to https://www.fromthelobby.com/users/sign_in — the plan selector is gated
+- url: https://www.fromthelobby.com/creator-rates
+  status: 200
+  note: 302s to https://www.fromthelobby.com/users/sign_in — creator rate card is gated
+sales_contact: https://calendly.com/myriah-5/the-lobby-brand-onboarding-with-myriah

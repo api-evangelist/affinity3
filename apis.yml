@@ -1,17 +1,32 @@
 aid: affinity3
-name: Affinity3
-description: 'Affinity3 is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+name: Affinity Technology (The Lobby)
+description: 'Affinity Technology, Inc. operates The Lobby (fromthelobby.com; app at tryaffinity.com),
+  an invite-only creator-marketing marketplace connecting direct-to-consumer brands with content creators
+  for product seeding, paid partnerships and user-generated content. Brands stock a Creator Closet that
+  vetted creators request from, and the platform handles standardized one-click partnership offers, contracts,
+  Shopify-driven fulfilment and shipment tracking, deliverable reminders, a content library and social-listening
+  reporting. The company began as Affinity, an AI personalized-fashion recommendation service for brands
+  and retailers (San Francisco, backed by 8VC, EquityZen ticker AFFI) and pivoted the same entity and
+  domain to the creator-marketing product. It publishes NO developer program: no portal, no API reference,
+  no OpenAPI/GraphQL/MCP surface, no api.* host, no public code org. Its only advertised integration is
+  a Shopify connection configured inside the authenticated brand dashboard.'
 url: https://raw.githubusercontent.com/api-evangelist/affinity3/refs/heads/main/apis.yml
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/affinity3.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-09-12'
 modified: '2026-09-12'
 tags:
 - Company
+- Influencer Marketing
+- Creator Economy
+- User Generated Content
+- Marketing
+- E-Commerce
+- Social Media
+- Shopify
+- Direct To Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +34,47 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/affinity3-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/affinity3
+  url: https://www.fromthelobby.com/
+- type: Support
+  url: https://www.fromthelobby.com/support
+- type: SignUp
+  url: https://www.fromthelobby.com/creator-application/new
+- type: Login
+  url: https://www.fromthelobby.com/users/sign_in
+- type: TermsOfService
+  url: https://www.fromthelobby.com/terms
+- type: PrivacyPolicy
+  url: https://www.fromthelobby.com/privacy
+- type: Plans
+  url: plans/affinity3-plans-pricing.yml
+- type: LLMsTxt
+  url: llms/affinity3-llms.txt
+- type: RateLimits
+  url: rate-limits/affinity3-rate-limits.yml
+x-enrichment:
+  date: '2026-09-12'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Affinity Technology, Inc. ships The Lobby only as an end-user SaaS for brands and creators —
+    there is no developer portal, API reference or api.* host on either fromthelobby.com or tryaffinity.com,
+    and its one advertised integration is a Shopify connection configured inside the authenticated brand
+    dashboard rather than a documented API a third party can call.
+  evidence:
+  - url: https://www.fromthelobby.com/developers
+    status: 404
+  - url: https://www.fromthelobby.com/api
+    status: 404
+  - url: https://tryaffinity.com/openapi.json
+    status: 404
+  - url: https://www.fromthelobby.com/.well-known/api-catalog
+    status: 404
+  - url: https://www.fromthelobby.com/
+    status: 200
+  checked: '2026-09-12'

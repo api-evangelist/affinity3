@@ -1,0 +1,23 @@
+generated: '2026-09-12'
+method: searched
+source: https://www.fromthelobby.com/
+limit_count: 0
+note: >-
+  No rate limits are published, because Affinity Technology (The Lobby) publishes no
+  public API. Contract discovery found no developer portal, no API reference, no
+  OpenAPI/Swagger/GraphQL/MCP surface and no api.* host on either fromthelobby.com or
+  tryaffinity.com; /api, /docs, /developers and every /.well-known/* path return the Rails
+  404 page. With no callable public surface there is no documented quota, no burst
+  allowance, no RateLimit-*/X-RateLimit-*/Retry-After response header and no documented
+  429 behaviour to record. This is an honest zero rather than an unmeasured gap.
+rate_limits: []
+headers: []
+evidence:
+- url: https://www.fromthelobby.com/api
+  status: 404
+- url: https://www.fromthelobby.com/docs
+  status: 404
+- url: https://www.fromthelobby.com/developers
+  status: 404
+- url: https://tryaffinity.com/openapi.json
+  status: 404

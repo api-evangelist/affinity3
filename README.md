@@ -64,5 +64,29 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Affinity3 is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/affinity3
+# Affinity Technology (The Lobby)
+
+Affinity Technology, Inc. operates The Lobby (fromthelobby.com; app at tryaffinity.com), an invite-only creator-marketing marketplace connecting direct-to-consumer brands with content creators for product seeding, paid partnerships and user-generated content. Brands stock a Creator Closet that vetted creators request from, and the platform handles standardized one-click partnership offers, contracts, Shopify-driven fulfilment and shipment tracking, deliverable reminders, a content library and social-listening reporting. The company began as Affinity, an AI personalized-fashion recommendation service for brands and retailers (San Francisco, backed by 8VC, EquityZen ticker AFFI) and pivoted the same entity and domain to the creator-marketing product. It publishes NO developer program: no portal, no API reference, no OpenAPI/GraphQL/MCP surface, no api.* host, no public code org. Its only advertised integration is a Shopify connection configured inside the authenticated brand dashboard.
+
+## Links
+
+- **Website** — https://www.fromthelobby.com/
+- **Support** — https://www.fromthelobby.com/support
+- **SignUp** — https://www.fromthelobby.com/creator-application/new
+- **Login** — https://www.fromthelobby.com/users/sign_in
+- **TermsOfService** — https://www.fromthelobby.com/terms
+- **PrivacyPolicy** — https://www.fromthelobby.com/privacy
+
+## Artifacts in this repository
+
+- `plans/affinity3-plans-pricing.yml` — commercial model (searched; no prices published, `plan_count: 0`)
+- `rate-limits/affinity3-rate-limits.yml` — `limit_count: 0`; no public API, so no published limits
+- `security/affinity3-domain-security.yml` — probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC
+- `well-known/affinity3-well-known.yml` — probed RFC 8615 well-known paths on all four hosts (all 404)
+- `llms/affinity3-llms.txt` — generated agent-facing summary
+
+## Coverage
+
+`state: none` / `reason: no-developer-program` — see `x-coverage` in `apis.yml`.
+
+Secondary-market listing: https://equityzen.com/company/affinity3
