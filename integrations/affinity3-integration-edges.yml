@@ -1,0 +1,18 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/affinity3/integrations
+- https://zapier.com/apps/affinity-technology-the-lobby/integrations
+- https://n8n.io/integrations/affinity3/
+- https://composio.dev/toolkits/affinity3
+- https://monid.ai/tools/affinity3
+checked:
+- https://composio.dev/toolkits/affinity3
+- https://monid.ai/tools/affinity3
+- https://n8n.io/integrations/affinity3/
+- https://zapier.com/apps/affinity-technology-the-lobby/integrations
+- https://zapier.com/apps/affinity3/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
