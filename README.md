@@ -1,4 +1,4 @@
-# Affinity3
+# Affinity Technology (The Lobby)
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,29 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-# Affinity Technology (The Lobby)
-
 Affinity Technology, Inc. operates The Lobby (fromthelobby.com; app at tryaffinity.com), an invite-only creator-marketing marketplace connecting direct-to-consumer brands with content creators for product seeding, paid partnerships and user-generated content. Brands stock a Creator Closet that vetted creators request from, and the platform handles standardized one-click partnership offers, contracts, Shopify-driven fulfilment and shipment tracking, deliverable reminders, a content library and social-listening reporting. The company began as Affinity, an AI personalized-fashion recommendation service for brands and retailers (San Francisco, backed by 8VC, EquityZen ticker AFFI) and pivoted the same entity and domain to the creator-marketing product. It publishes NO developer program: no portal, no API reference, no OpenAPI/GraphQL/MCP surface, no api.* host, no public code org. Its only advertised integration is a Shopify connection configured inside the authenticated brand dashboard.
 
-## Links
+**Areas:** Company · Influencer Marketing · Creator Economy · User Generated Content · Marketing · E-Commerce · Social Media · Shopify · Direct to Consumer
 
-- **Website** — https://www.fromthelobby.com/
-- **Support** — https://www.fromthelobby.com/support
-- **SignUp** — https://www.fromthelobby.com/creator-application/new
-- **Login** — https://www.fromthelobby.com/users/sign_in
-- **TermsOfService** — https://www.fromthelobby.com/terms
-- **PrivacyPolicy** — https://www.fromthelobby.com/privacy
+## Affinity Technology (The Lobby) on APIs.io
 
-## Artifacts in this repository
+Everything profiled for Affinity Technology (The Lobby) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/affinity3/](https://apis.io/providers/affinity3/)** — or go straight to one of the APIs or properties below.
 
-- `plans/affinity3-plans-pricing.yml` — commercial model (searched; no prices published, `plan_count: 0`)
-- `rate-limits/affinity3-rate-limits.yml` — `limit_count: 0`; no public API, so no published limits
-- `security/affinity3-domain-security.yml` — probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC
-- `well-known/affinity3-well-known.yml` — probed RFC 8615 well-known paths on all four hosts (all 404)
-- `llms/affinity3-llms.txt` — generated agent-facing summary
+### Published properties
 
-## Coverage
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-`state: none` / `reason: no-developer-program` — see `x-coverage` in `apis.yml`.
+#### Security (1)
 
-Secondary-market listing: https://equityzen.com/company/affinity3
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Affinity3 Domain Security](https://apis.io/security/affinity3/affinity3-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Affinity3 Plans Pricing](https://apis.io/plans/affinity3/affinity3-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Affinity3 Rate Limits](https://apis.io/rate-limits/affinity3/affinity3-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.fromthelobby.com/)
+- [Sign up](https://www.fromthelobby.com/creator-application/new)
+- [Support](https://www.fromthelobby.com/support)
+- [Terms of service](https://www.fromthelobby.com/terms)
+- [Privacy policy](https://www.fromthelobby.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 12.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 34.2 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/affinity3/](https://apis.io/providers/affinity3/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Affinity Technology (The Lobby): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/affinity3/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
